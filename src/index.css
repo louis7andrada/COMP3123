@@ -1,42 +1,73 @@
-.App {
-  text-align: center;
+.data-entry-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: #333;
+  text-align: center;
   margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-row {
+  margin-bottom: 15px;
 }
 
-
-.title {
-  color: #61dafb;
-  font-size: 4rem;
-  margin-bottom: 0.5rem;
-}
-
-.subtitle {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.student-info {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.college {
-  font-size: 1.5rem;
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
   font-weight: bold;
+}
+
+input[type="email"],
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.submission-data {
+  margin-top: 20px;
+  background-color: #000;
+  color: #0f0;
+  border: 1px solid #0f0;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+}
+
+.submission-data p {
+  margin: 5px 0;
 }
